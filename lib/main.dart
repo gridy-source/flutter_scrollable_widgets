@@ -1,5 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:scrollable_widgets/screen/home_screen.dart';
 
 void main() {
-  runApp(const Text("TEXT"));
+  runApp(
+    MaterialApp(
+      home: HomeScreen(),
+    ),
+  );
 }
